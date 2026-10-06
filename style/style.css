@@ -4,23 +4,39 @@
 body
 {
     background-color: #A74482;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .bangers-regular {
-  font-family: "Bangers", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  text-align: left;
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+    text-align: left;
 }
 
 .title_style
 {
     font-family: "Bangers", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  text-align: left;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+.content
+{
+    flex: 1;
 }
 
+footer
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
 
 header
 {
@@ -49,8 +65,11 @@ header nav a
     color: inherit;
 }
 
-
-
+html, body
+{
+    height: 100%;
+    margin: 0;
+}
 
 
 
@@ -61,3 +80,4 @@ header nav a
 
 
 }
+
